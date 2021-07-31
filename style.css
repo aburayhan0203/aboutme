@@ -1,0 +1,262 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: ;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+/*----Home------*/
+
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-container nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  height: px;
+  background-color: #8e44ad;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.home-container nav:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.home-container nav ul {
+  display: flex;
+  list-style: none;
+}
+.home-container nav ul li {
+  font-family: century;
+  font-size: 1.5 rem;
+  font-weight: bold;
+  margin: 20px 0px;
+  display: flex;
+  justify-content: center;
+}
+.home-container nav ul li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: 8px 30px;
+  transition: all 0.5s ease;
+}
+.home-container nav ul li a:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 10px white;
+  border-radius: 20px;
+}
+.home-container nav ul ul {
+  display: none;
+  padding-left: 30px;
+}
+.home-container nav ul li:hover > ul {
+  display: block;
+}
+/*-----home page*/
+.home-page {
+  width: 100%;
+  height: 650px;
+  background: radial-gradient(#fff, #ffd6d6);
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+}
+.main {
+  margin: 280px 100px;
+}
+.headings {
+  font-size: 50px;
+  color: #353535;
+  font-family: century;
+}
+.btn {
+  padding: 10px 35px;
+  background-color: rgb(58, 55, 55);
+  font-family: century;
+  outline: none;
+  border: 1px white;
+  color: tomato;
+  font-size: 25px;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: #f4971b;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  box-shadow: 0 0 5px white 0 0 10px white 0 0 15px white;
+}
+.home-image {
+  width: 400px;
+  height: 500px;
+  float: right;
+  margin-left: 200px;
+  margin-top: 100px;
+}
+
+/*-----about----*/
+#about {
+  background-color: black;
+}
+
+h1 {
+  color: #f4971b;
+  font-family: century;
+  font-size: 4rem;
+  text-align: center;
+  position: relative;
+  top: 10px;
+}
+h2 {
+  color: rgb(20, 235, 74);
+  font-size: 2.5rem;
+}
+.container {
+  display: flex;
+  box-sizing: border-box;
+}
+.intro {
+  padding: 20px;
+  margin-top: 50px;
+}
+.intro p {
+  margin-top: 10px;
+  color: white;
+  text-align: justify;
+}
+.pic {
+}
+
+/*-----education----*/
+
+#education {
+  background: radial-gradient(#fff, #e7bcbf);
+  height: 900px;
+  box-sizing: border-box;
+  width: 100%;
+}
+h1 {
+  padding-top: 20px;
+}
+.col {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+.bsc {
+  padding-top: 20px;
+  width: 50%;
+  height: 200px;
+  border: 3px solid black;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.bsc p {
+  font-size: 2rem;
+  text-align: center;
+  font-family: century;
+  line-height: 1.5;
+  color: #8e44ad;
+}
+.bsc a {
+  text-decoration: none;
+  color: #2816ce;
+  font-size: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*-----services---*/
+
+#services {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  height: 800px;
+}
+.row {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 350px;
+  height: 450px;
+  margin: 10px;
+  align-items: center;
+  text-align: justify;
+  padding: 10px;
+  border-radius: 20px;
+  background: linear-gradient(to top, rgb(255, 45, 45) 50%, white 50%);
+  background-size: 100% 200%;
+  transition: all 0.8s;
+}
+.box:hover {
+  background-position: left bottom;
+  color: white;
+  border: none;
+  box-shadow: 0 0 20px red;
+}
+.box h1 {
+  color: #5443eb;
+  font-size: 48px;
+}
+/*-----services---*/
+#contact {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+  margin: 20px 0 px;
+}
+input {
+  padding: 12px;
+  margin: 15px;
+  width: 30%;
+  border: none;
+  outline: none;
+}
+textarea {
+  padding: 20px;
+  margin: 15px;
+  width: 20%;
+  border: none;
+  outline: none;
+}
+#send {
+  width: 10%;
+  border: none;
+  outline: none;
+}
+#send:hover {
+  box-shadow: 0 0 20px white;
+  background-color: tomato;
+  color: white;
+}
